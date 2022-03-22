@@ -36,3 +36,24 @@ if (num % 2 === 1) {
 } else {
     return false
 }
+
+
+/* ELSE IF
+
+if (condición1)
+   sentencia1
+else if (condición2)
+   sentencia2
+else if (condición3)
+   sentencia3
+...
+else
+   sentenciaN */
+
+if (edad > 50) {
+    console.log('Adulto mayor');
+} else if (edad > 30) {
+    console.log('Adulto')
+} else {
+    console.log('Joven')
+}
